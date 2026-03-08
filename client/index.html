@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Video Call App</title>
+</head>
+
+<body>
+
+<h2>Video Call App</h2>
+
+<input id="roomInput" placeholder="Enter Room ID"/>
+<button onclick="joinRoom()">Join Room</button>
+
+<br><br>
+
+<video id="localVideo" autoplay muted playsinline width="300"></video>
+<video id="remoteVideo" autoplay playsinline  width="300"></video>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
